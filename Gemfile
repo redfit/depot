@@ -24,6 +24,8 @@ gem 'jquery-rails'
 gem 'pry'
 gem 'guard-livereload', group: :development
 
+gem 'thin'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

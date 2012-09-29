@@ -26,6 +26,7 @@ gem 'guard-livereload', group: :development
 
 gem 'thin'
 gem 'will_paginate'
+gem 'mail-iso-2022-jp'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

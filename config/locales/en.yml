@@ -2,4 +2,39 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  thanks: "Thank you for your order"
+  number:
+    currency:
+      format:
+        unit:      "$"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+  layouts:
+    application:
+      title: "Pragmatic Bookshelf"
+      home: "home"
+      questions: "questions"
+      news: "news"
+      contact: "contact"
+  store:
+    index:
+      title_html: "Pragmatic store"
+      add_html: "Add cart"
+  carts:
+    cart:
+      title: "Cart"
+      empty: "Empty cart"
+      checkout: "Checkout"
+      total: "Total"
+  orders:
+    new:
+      legend:       "Please Enter Your Details"
+    form:
+      name:         "Name"
+      address_html: "Address"
+      email:        "E-mail"
+      pay_type:     "Pay with"
+      pay_prompt_html: "Select a payment method"
+      submit:       "Place Order"
